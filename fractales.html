@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fractal de Mandelbrot.</title>
+	<meta charset="utf-8">
+
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+	
+	<!-- Header -->
+	<div class="container" style="margin-bottom: 20px">
+		<h2>Esto es un fractal de Mandelbrot.</h2>
+		<h3></h3>
+	</div>
+
+	<!-- Jumbottron con dos columnas -->
+	<div class="jumbotron" style="margin-bottom: 0">
+		
+		<div class="row">
+			<div class="col-md-10" style="margin-bottom: 20px">
+				<div class="container" style="margin-right: auto; margin-left: auto; width: 1000px">
+					<canvas id="myCanvas" width="1000" height="1000" style=""></canvas>
+					<script type="text/javascript" src="fractales_rafa.js"></script>
+				</div>	
+			</div>
+
+			<div class="col-md-2">
+				<p style="padding-right: 9px; font-size: 100%">
+					Un fractal es un objeto geométrico cuya estructura básica, fragmentada o irregular, se repite a diferentes escalas.
+				</p>
+				<input type="submit" onclick="play()" value="reset">
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container" style="display: inline-block; vertical-align: top; float: right">
+		<footer style="text-align: right"> @ Desarrollado por grupo Guisseppi.</footer>
+	</div>
+
+</body>
+</html>
