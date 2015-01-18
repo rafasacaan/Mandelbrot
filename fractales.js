@@ -1,4 +1,7 @@
 // Código para Generar fractales de Maldenbrot
+// written by Rafael Sacaan.
+
+
 canvas = document.getElementById('myCanvas');
 context = canvas.getContext('2d');
 
